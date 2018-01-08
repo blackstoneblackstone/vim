@@ -26,4 +26,4 @@ echo "安装完毕将自动退出" >> ma6174
 echo "请耐心等待" >> ma6174
 vim ma6174 -c "BundleInstall" -c "q" -c "q"
 rm ma6174
-echo "安装完成"
+eho "安装完成"
