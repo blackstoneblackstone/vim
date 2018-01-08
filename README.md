@@ -19,4 +19,16 @@
  具体详见：https://github.com/ma6174/vim
 ##  简易安装方法：
  打开终端，执行下面的命令就自动安装好了：
- wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
+`wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x`
+
+## vim 基础功能
+- 全选
+ggVG 
+稍微解释一下上面的命令 
+gg 让光标移到首行，在vim才有效，vi中无效 
+V   是进入Visual(可视）模式 
+G  光标移到最后一行 
+选中内容以后就可以其他的操作了，比如： 
+d  删除选中内容 
+y  复制选中内容到0号寄存器 
+"+y  复制选中内容到＋寄存器，也就是系统的剪贴板，供其他程序用 ")
